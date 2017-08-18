@@ -1,18 +1,28 @@
+/*
+ *
+ *    Copyright 2017 AJStri & JJPPRRMM
+ *
+ *    Licensed under the Apache License, Version 2.0 (the "License");
+ *    you may not use this file except in compliance with the License.
+ *    You may obtain a copy of the License at
+ *
+ *            http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *    Unless required by applicable law or agreed to in writing, software
+ *    distributed under the License is distributed on an "AS IS" BASIS,
+ *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *    See the License for the specific language governing permissions and
+ *    limitations under the License.
+ *
+ *
+ */
+
 /* 2x2 RECIPES */
 
-// Add a recipe of 4 cobblestone to output 2 stone.
-recipes.addShaped(<minecraft:stone> * 2,
-    [
-        [<minecraft:cobblestone>, <minecraft:cobblestone>],
-        [<minecraft:cobblestone>, <minecraft:cobblestone>]
-    ]
-);
+
 
 /* 3x3 RECIPES */
 
 
 
 /* FURNACE RECIPES */
-
-// Turns charcoal into coal.
-furnace.addRecipe(<minecraft:coal:0>, <minecraft:coal:1>);
